@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+    background-image: url(./images/bg-pattern-intro-mobile.svg); 
+    border-bottom-left-radius: 100px;  
+}
+
+main {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10% 30%;
+    color: gold;
+    text-shadow: 2px 2px red;
+}
+
+form {
+    width: 500px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 8%;  
+}
+
+h3 {
+    padding-left: 80%;
+    color: #ffb805;
+    text-shadow: 1px 1px blue;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    border-radius: 7px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;   
+}
+
+.firstname, .lastname {
+    padding: 10px;
+}
+ 
+input {
+    width: 400px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 40px;
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+.Submit {
+    width: 150px;
+    background-color: rgb(174, 150, 13);
+    color: black;
+    border: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    padding-left: 45px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    text-shadow: 1px 1px white;
+    padding-left: 45%;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }

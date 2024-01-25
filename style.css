@@ -1,0 +1,434 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Blogr {
+    background-color: hsl(356, 100%, 66%);
+    background-image: url(./images/bg-pattern-intro-desktop.svg);
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: -200px -1100px;
+    padding: 40px;
+    padding-left: 6%;
+    height: 500px;
+    border-radius: 0 0 0 2%;
+}
+
+.logo {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+.list li {
+    color: rgb(219, 219, 219);
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.list ul {
+    display: flex;
+}
+
+.list li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.aa {
+    display: none;
+    position: absolute;
+    left: 33%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(68, 67, 67, 0.2);
+}
+  
+.aa a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    padding-left: -4%;
+}
+  
+.aa a:hover {background-color: #f1f1f1}
+  
+.ast:hover .aa {
+    display: block;
+}
+
+.list2 {
+    padding-left: 38%;
+    margin-top: 15px;
+}
+
+#gin {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+#up {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-color:  hsl(0, 0%, 100%);
+    padding: 10px 25px;
+    text-decoration: none;
+    color: hsl(356, 100%, 66%);
+    margin-left: 15px;
+}
+
+.modem {
+    margin-top: 68px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#modem {
+    color: white;
+    font-size: 55px;
+}
+
+#grow {
+    color: rgb(226, 221, 221);
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.list3 {
+    padding-top: 40px; 
+    padding: 20px;
+    margin-top: 35px;
+}
+
+#for {
+    background-color: hsl(355, 100%, 74%);
+    border: 2px solid transparent;
+    border-radius: 25px;
+    color: white;
+    margin-left: 5px; 
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+#free {
+    background-color:  hsl(0, 0%, 100%);
+    border: 2px solid transparent;
+    border-radius: 25px;
+    color: rgb(255, 143, 162);
+    margin-left: 5px;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.designed{
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding-top: 10%;
+    color:  hsl(240, 10%, 16%);
+}
+
+#an {
+    margin: 30px;
+}
+
+#off {
+    margin: 30px;
+}
+
+.editor {
+    background-color:  hsl(0, 0%, 100%);
+    padding-top: 5px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 25px;
+    color:  hsl(240, 10%, 16%);
+    z-index: -1;
+}
+ 
+#easy {
+    float: left;
+    margin-left: 6%;
+    color:  hsl(207, 13%, 34%);
+}
+
+#laptop {
+    float: left;
+    margin-right: -30%;
+}
+.state{
+    align-items: center;
+    background-color: hsl(207, 13%, 34%);
+    display: flex;
+    border-radius: 0 2% 0 2%;
+    background-image: url(./images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-position: 50px -350px;
+    background-size: 65%;
+    height: 520px;
+    z-index: -1;
+}
+
+#Art {
+    float: lef;
+    margin-left: 6%;
+}
+
+#mind {
+    float: left;
+    color: hsl(0, 0%, 100%);
+    margin-left: 4%;
+    line-height: 25px;
+}
+
+.open {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    z-index: 5;
+}
+ 
+#an {
+    color: hsl(240, 10%, 16%);
+}
+
+#ans {
+    color: hsl(240, 10%, 16%);
+}
+
+#simple {
+    float: left;
+    margin-left: -25%;
+}
+
+#hard {
+    line-height: 25px;
+    float: right;
+    margin-left: 10%;
+    padding-top: 15%;
+    color: hsl(207, 13%, 34%);
+}
+
+.Blogr2{
+    background-color: hsl(240, 10%, 16%);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+#logo2 {
+    margin: 30px;
+    margin-left: 6%;
+}
+
+.list4 {
+    display: flex;
+    margin: 30px;
+    padding-left: 30px;
+}
+
+.product {
+    padding-left: 60px;
+    line-height: 40px;
+    color: white;
+}
+
+#pdt {
+    padding: 15%;
+}
+
+.company {
+    padding-left: 85%;
+    line-height: 40px;
+    color: white;
+}
+
+#cpy {
+    padding: 15%;
+
+}
+
+.Connect {
+    padding-left: 100%;
+    line-height: 40px;
+    color: white;
+    
+}
+
+#cnt {
+    padding: 15%;  
+}
+
+.list4 li {
+    list-style-type: none;
+    color: rgb(242, 232, 213);
+}
+
+.list4 li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}  
+
+
+#me {
+    background-color: yellow;
+    color: red;
+    font-size: 13px;
+    border-radius: 10px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+@media only screen and (max-width: 420px) {
+    .Blogr {
+        background-color: #ff525d;
+        background-image: url(./images/bg-pattern-intro-mobile.svg); 
+        background-size: 320%;
+        background-position: -1200px -800px; 
+        height: max-content;
+        width: 400px;
+        border-bottom-left-radius: 80px;
+    }
+    .list, .list2 {
+        display: none;
+    }
+    
+    .list3{
+        padding: 20px;
+        margin-bottom: 100px;
+    }
+    #free {
+        background-color: hsl(355, 100%, 74%);
+        color: white;
+    }
+    #for {
+        background-color:  hsl(0, 0%, 100%);
+        color: rgb(255, 143, 162);
+    }
+    #off {
+        margin: 30px;
+        font-size: 110%;
+    }
+    .designed {
+        text-align: center;
+        margin-top:40px;
+        margin-bottom: 20px;
+    }
+    .editor {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    } 
+    #laptop {
+        margin: auto;
+        height: 800px;
+        width: 100%;
+    }
+    #laptop img {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .state {
+        text-align: center;
+        margin-top:5px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border-radius: 0 100px;
+        font-size: 110%;
+        background-image: url(./images/bg-pattern-circles.svg);
+        background-repeat: no-repeat;
+        background-position: 4% -120px;
+        background-size: 500px;
+    }
+    
+    #Art {
+        position: absolute;
+        z-index: -2;
+        top: -50%;
+        margin: auto;
+    }
+    #Art img {
+        width: 100%;
+    }
+    #mind {
+       padding: 195px 0px 0px 0px;
+    }
+    #ans {
+        color: white;
+        line-height: 40px;
+    }
+    .open {
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        font-size: 110%;
+    }
+    #simple img{
+        width: 100%;
+    }
+    #simple {
+        width: 100%;
+        margin: auto;
+    }
+
+    .Blogr2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        border-radius: 0 100px 0 0;
+    }
+    .list4 {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .company {
+        padding: 0;
+        margin-bottom:35px;
+        text-align: center;
+        margin-top: 23px;
+    }
+    
+    .Connect {
+        padding: 0;
+        margin-bottom: 50px;
+        text-align: center;
+        margin-top: 23px;
+    }                    
+    
+    .product {
+        padding: 0;
+        margin-bottom:35px;
+        text-align: center;
+        margin-top: 23px;
+    }
+}

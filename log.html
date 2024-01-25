@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="log.css">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <h3>
+        Already have an account
+        <a  target="_blank" href="http://127.0.0.1:5503/log.html">SIGN IN</a>
+    </h3>
+    <main>
+    <form>
+        <fieldset>
+            <h1>
+                Login to Blogr
+            </h1>
+            <label>
+                Email
+                <input type="email" class="email" placeholder="joinme@gmail.com" required>
+            </label>
+            <label>
+                Password
+                <input type="password" class="password" placeholder="1122334400" required>
+            </label>
+            <p id="me">
+                <a onclick="document.getElementById('demo').innerHTML = 'a code as been sent to you '">Forgotten</a>
+               <p id="demo"></p>
+           </p>
+            <input type="Submit" value="Create Account"  class="Submit">
+              <div id="log">
+                <p>
+                    <a href="http://127.0.0.1:5503/sign.html">Sign In</a>
+                </p>
+            </div>
+        </fieldset>
+    </form>
+</main>
+</body>
+</html>
